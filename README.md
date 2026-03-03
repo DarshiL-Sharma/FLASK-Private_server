@@ -45,13 +45,13 @@ These addresses are not accessible from the public internet.
 Example structure:
 
 Internet
-|
+➡️
 Router
-|
+➡️
 Local Devices
-├── Laptop (Flask Server)
-├── Phone
-└── Tablet
+├Laptop (Flask Server)
+- Phone
+- Tablet
 
 When the server runs on the laptop, the phone can access it using the laptop's local IP address.
 
