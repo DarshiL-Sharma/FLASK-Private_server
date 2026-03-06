@@ -4,25 +4,25 @@
 <head>
   <meta charset="utf-8">
   <title>Darshil Sharma</title>
-  <link rel="stylesheet" href="static/styles.css">
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
   <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
-  <link rel="icon" href="favicon.ico">
+  <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}">
 </head>
 
 <body>
   <div class="top-container">
-    <img class="top-cloud" src="static/images/cloud.png" alt="cloud">
+    <img class="top-cloud" src="static/cloud.png" alt="cloud">
     <div class="title-text">
       <h1>I'm Darshil</h1>
       <h2>a <span class="pro">pro</span>grammer.</h2>
     </div>
-    <img class="bottom-cloud" src="static/images/cloud.png" alt="cloud">
-    <img class="mountain" src="static/images/mountain.png" alt="mountain-img">
+    <img class="bottom-cloud" src="static/cloud.png" alt="cloud">
+    <img class="mountain" src="static/mountain.png" alt="mountain-img">
   </div>
 
   <div class="middle-container">
     <div class="profile">
-      <img src="https://plus.unsplash.com/premium_vector-1719858611039-66c134efa74d?q=80&w=2360&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" WIDTH="300px"alt="Darshil's-profile-img">
+      <img src="https://plus.unsplash.com/premium_vector-1719858611039-66c134efa74d?q=80&w=2360&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="300px" alt="Darshil's-profile-img">
       <h2>Hello.</h2>
       <p class="intro">I am software developer. I ❤️ reading books.</p>
     </div>
@@ -34,32 +34,33 @@
 
         <h3>About Me</h3>
         <p>I am learning code when I am in 6th Grade. currently learning Python 🐍 and ML💻💾 </p>
-
       </div>
+
       <div class="skill-row">
         <img class="chilli-img" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjRrcXczZHRiazR0bDR2N21hY2FrZGFkdzM4anVuY3J4NHQzbDFuZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/phSjvVtUBOplx1P1Yi/giphy.gif" width="400px" alt="chillies-img">
 
         <h3>My Skills</h3>
-          <li>Intermediate Python Developer</li>
-      <li>Python Game Developer</li>
-      <li>Basic understanding of Generative AI models and applications.</li>
-      <li>Knowledge of probability theory used in ML models.</li>
-      <li>Strong foundation in statistical concepts for data analysis.</li>
-      <li>Good understanding of programming concepts using C.</li>
-      <li>Beginner-level knowledge of machine learning concepts and workflows.</li>
-      <li>Familiar with basic data analysis and preprocessing techniques.</li>
-      <li>Basic knowledge of web development (HTML, CSS, and basic concepts)</li>
+        <li>Intermediate Python Developer</li>
+        <li>Python Game Developer</li>
+        <li>Basic understanding of Generative AI models and applications.</li>
+        <li>Knowledge of probability theory used in ML models.</li>
+        <li>Strong foundation in statistical concepts for data analysis.</li>
+        <li>Good understanding of programming concepts using C.</li>
+        <li>Beginner-level knowledge of machine learning concepts and workflows.</li>
+        <li>Familiar with basic data analysis and preprocessing techniques.</li>
+        <li>Basic knowledge of web development (HTML, CSS, and basic concepts)</li>
       </div>
     </div>
+
     <hr>
+
     <div class="contact-me">
       <h2>Get In Touch</h2>
       <h3>If you Love reading Books📚.</h3>
       <p class="contact-message">Love reading Books like I do? suggest me good books we will read Together</p>
-      <a class="btn" href="darshil.25.sharma@gmail.com">CONTACT ME</a>
+      <a class="btn" href="mailto:darshil.25.sharma@gmail.com">CONTACT ME</a>
     </div>
   </div>
-
 
   <div class="bottom-container">
     <a class="footer-link" href="https://github.com/DarshiL-Sharma">GitHub</a>
